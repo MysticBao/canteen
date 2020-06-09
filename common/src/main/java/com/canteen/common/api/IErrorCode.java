@@ -1,9 +1,9 @@
-package com.canteen.common.api
+package com.canteen.common.api;
 
 /**
  * Method for boxing error message infomation
  */
-public interface IErrorResult{
+public interface IErrorCode{
     int getCode();
     String getMessage();
 }

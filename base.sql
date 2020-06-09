@@ -42,18 +42,18 @@ create table `ums_member`(
 
 create table `ums_member_stall_relation`(
     `member_id` bigint(20) DEFAULT NULL,
-    `stall_id` bigint(20) DEFAULT NULL,   
+    `stall_id` bigint(20) DEFAULT NULL  
 )ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='用户摊位关联表';
 
 create table `pms_product_stall_relation`(
     `product_id` bigint(20) DEFAULT NULL,
-    `stall_id` bigint(20) DEFAULT NULL,
+    `stall_id` bigint(20) DEFAULT NULL
 )ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='商品摊位关联表';
 
 create table `pms_product_category`(
     `id` bigint(20) NOT NULL AUTO_INCREMENT,
     `name` varchar(64) NOT NULL,
-    UNIQUE KEY(`name`)
+    UNIQUE KEY(`name`),
     PRIMARY KEY(`id`)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='产品类型表';
 
