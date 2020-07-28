@@ -1,4 +1,4 @@
-package com.canteen.common.api;
+package com.canteen.common.result;
 
 /**
  * The basic status for each request
