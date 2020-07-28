@@ -15,6 +15,8 @@ create table `user_admin`(
     `create_time` datetime,
     `last_modified` datetime,
     `password` varchar(20),
+    `status` int(1),
+    `last_login_time` datetime,
      unique key(`name`),
      primary key(`id`)
 );

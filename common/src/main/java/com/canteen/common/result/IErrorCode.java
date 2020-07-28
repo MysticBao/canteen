@@ -1,4 +1,4 @@
-package com.canteen.common.api;
+package com.canteen.common.result;
 
 /**
  * Method for boxing error message infomation
