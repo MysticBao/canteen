@@ -6,9 +6,11 @@ import com.canteen.admin.service.AdminUserService;
 import com.canteen.common.exception.CanteenServiceException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.stereotype.Service;
 
 import java.util.Date;
 
+@Service
 public class AdminUserServiceImpl implements AdminUserService {
 
     @Autowired

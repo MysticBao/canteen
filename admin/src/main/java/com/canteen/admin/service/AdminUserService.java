@@ -2,6 +2,7 @@ package com.canteen.admin.service;
 
 import com.canteen.admin.model.AdminUser;
 import com.canteen.common.exception.CanteenServiceException;
+import org.springframework.stereotype.Service;
 
 public interface AdminUserService {
     /**
